@@ -15,7 +15,6 @@ const ListaProdutosCarrinho = ({carrinho}) => {
                         <ItemCarrinho
                             key={itemCarrinho.id}
                             itemCarrinho={itemCarrinho}
-                            removerProdutoCarrinho={removerProdutoCarrinho}
 
                         />
                     ) : (
